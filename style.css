@@ -1,14 +1,36 @@
 /* Main CSS */
 
-body {
-    height: 100vh;
+body {    
 }
 
 #main-content {
-    height: 90vh;
+}
+
+#main-content div {
+    border: 2px solid black;
+}
+
+#title-area {
+    min-height: 100px;
+    height: 15vh;
+}
+#quiz-area {
+    min-height: 600px;
+    height: 60vh;
+}
+
+#controls-area {
+    min-height: 100px;
+    height: 10vh;
 }
 
 footer p {
     text-align: center;
     font-weight: bold;
+}
+
+/* Helpers */
+
+.height50p {
+    height : 50%
 }

@@ -1,3 +1,5 @@
 # shamrock-n-roll
 
-## As yet unamed project of the Shamrock'N'Roll team for Code Institute Hackathon Mar21!
+## Project - How's Your Irish Luck
+
+An Irish themed quiz for St Patrick's Day 2021.
