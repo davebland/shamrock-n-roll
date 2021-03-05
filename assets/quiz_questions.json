@@ -1,0 +1,54 @@
+{
+    "questions" : [
+        {
+            "question" : "A trifoliate plant that is a national symbol of Ireland",
+            "correct_answer" : "Shamrock",
+            "incorrect_answers" : ["Pepperwort","Water Clover","Lucky clover"]
+        },
+        {
+            "question" : "In what year was the first celebration of St. Patrick’s Day in the United States?",
+            "correct_answer" : "1737",
+            "incorrect_answers" : ["1726","1903","1640"]
+        },
+        {
+            "question" : "What is the birth name of St. Patrick?",
+            "correct_answer" : "Maewyn Succat",
+            "incorrect_answers" : ["Patricius","Patrick Celestine","Benignus"]
+        },
+        {
+            "question" : "What was the original national color of Ireland during St. Patrick’s Day?",
+            "correct_answer" : "Blue",
+            "incorrect_answers" : ["Yellow","Green","Red"]
+        },
+        {
+            "question" : "Which of the following rock singers/bands is Irish?",
+            "correct_answer" : "U2",
+            "incorrect_answers" : ["Roxette","Falco","EuropeYellow"]
+        },
+        {
+            "question" : "Name of the wooden walking stick of the Leprechaun",
+            "correct_answer" : "Shillelagh",
+            "incorrect_answers" : ["Makila","Alpenstock","Kebbie"]
+        },
+        {
+            "question" : "What happens to you If you don't wear green on St. Patrick's Day?",
+            "correct_answer" : "Get pinched",
+            "incorrect_answers" : ["Not allowed at the parade","Bad luck for a year","Have nightmares"]
+        },
+        {
+            "question" : "Doing which of the following is said to bring you good luck on St. Patrick's Day?",
+            "correct_answer" : "None of these",
+            "incorrect_answers" : ["Wearing green clothes","Drinking beer","Taking a bath in a river"]
+        },
+        {
+            "question" : "Where was the first St. Patrick’s Day Parade celebrated in 1762?",
+            "correct_answer" : "New York",
+            "incorrect_answers" : ["Ireland","Canada","Boston"]
+        },
+        {
+            "question" : "In what location is it rumored that leprechauns bury their pot of gold?",
+            "correct_answer" : "The end of a rainbow",
+            "incorrect_answers" : ["A river","A mountain","In a cave"]
+        }
+    ]
+}
