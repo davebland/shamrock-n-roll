@@ -2,14 +2,11 @@
 
 body {    
     background-color: #f0fbfd;
-
 }
 
 
 #main-content {
     background-color: #f0fbfd;
-    
-   
 }
 
 #main-content div {
@@ -23,11 +20,9 @@ body {
 #quiz-area {
     min-height: 600px;
     height: 60vh;
-    background-image: url(../assets/images/irelandcliffs.jpg);
+    background-image: url(../assets/images/irelandcliffs_sm.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    
-    
+    background-size: cover;   
 }
 
 #controls-area {
@@ -38,6 +33,11 @@ body {
 footer p {
     text-align: center;
     font-weight: bold;
+}
+
+.answer {
+    text-align: center;
+    color: white;
 }
 
 /* Helpers */

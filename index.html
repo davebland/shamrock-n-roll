@@ -30,20 +30,32 @@
                 <div class="row height50p">
                     <!-- Answer Area -->
                     Answer Area
-                    <p id="answer1"></p>
-                    <p id="answer2"></p>
-                    <p id="answer3"></p>
-                    <p id="answer4"></p>
+                    <table>
+                        <tr>
+                            <td><p>A: <span id="answer1" class="answer" onclick="showResults(this, 'results')"></span></p></td>
+                            <td><p>B: <span id="answer2" class="answer" onclick="showResults(this, 'results')"></span></p></td>
+                        </tr>
+                        <tr>
+                            <td><p>C: <span id="answer3" class="answer" onclick="showResults(this, 'results')"></span></p></td>
+                            <td><p>D: <span id="answer4" class="answer" onclick="showResults(this, 'results')"></span></p></td>
+                        </tr>
+                    </table>                    
                 </div>
             </div>
             <div class="col-md">
                 <!-- Score Board -->
                 Score Board
+                <p id="results"></p>
             </div>
         </div>
         <div id="controls-area" class="row">
             <!-- Game Controls -->
             Game Controls
+            <div class="">
+                <button onclick="quiz.newRound()">Start Game</button>
+                <button onclick="quiz.nextQuestion()">Next Question</button>
+                <button onclick="quiz.newRound()">Reset</button>
+            </div>            
         </div>
         <!-- Main Page Content -->
     </section>
@@ -51,5 +63,6 @@
         <p>&copy; Shamrock'N'Roll 2021</p>
     </footer>
     <script src="assets/quiz_questions.js"></script>
+    <script src="assets/quiz_results.js"></script>
 </body>
 </html>
