@@ -49,6 +49,57 @@
             "question" : "In what location is it rumored that leprechauns bury their pot of gold?",
             "correct_answer" : "The end of a rainbow",
             "incorrect_answers" : ["A river","A mountain","In a cave"]
+        },
+        // 
+        {
+            "question" : "Where was St Patrick born?",
+            "correct_answer" : "Wales",
+            "incorrect_answers" : ["Dublin","Kerry","Cork"]
+        },
+        {
+            "question" : "When is Samhain celebrated?",
+            "correct_answer" : "November",
+            "incorrect_answers" : ["September","May","December"]
+        },
+        {
+            "question" : "What is the second most spoken language in Ireland",
+            "correct_answer" : "Polish",
+            "incorrect_answers" : ["English","Irish","Gaelic"]
+        },
+        {
+            "question" : "Where is Guinness consumed the most in the world?",
+            "correct_answer" : "Nigeria",
+            "incorrect_answers" : ["The United States","Argentina","Ireland"]
+        },
+        {
+            "question" : "What is the national symbol of Ireland?",
+            "correct_answer" : "Harp",
+            "incorrect_answers" : ["Shamrock","Dairy Cow","St Patrick and Snakes"]
+        },
+        {
+            "question" : "Which famous saint is buried in Ireland",
+            "correct_answer" : "St Patrick",
+            "incorrect_answers" : ["St Nicholas","St Sebastian","St Francis"]
+        },
+        {
+            "question" : "What is a protective tradition in Ireland?",
+            "correct_answer" : "Making a Brigid's cross to hang on the door",
+            "incorrect_answers" : ["Throwing a glass of whiskey in the fire","Leaving gold jewellry in a basket by the door","Burning paper snakes"]
+        },
+        {
+            "question" : "What superstition brings bad luck in Ireland?",
+            "correct_answer" : "Seeing a lone magpie",
+            "incorrect_answers" : ["Going to the funeral of a stranger","Having red hair","Saying leprechaun when drunk"]
+        },
+        {
+            "question" : "Where are fairies said to be found in Ireland?",
+            "correct_answer" : "In a lonely Hawthorne tree",
+            "incorrect_answers" : ["In rocky quarries","In a field of clovers","On farm land"]
+        },
+        {
+            "question" : "For good luck, what is a common Irish tradition?",
+            "correct_answer" : "Lighting a candle",
+            "incorrect_answers" : ["Dancing a jig","Singing to St Patrick","Drink a shot of whiskey"]
         }
     ]
 }
