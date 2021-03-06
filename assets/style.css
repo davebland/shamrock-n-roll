@@ -18,7 +18,7 @@ body {
     height: 15vh;
 }
 #quiz-area {
-    min-height: 600px;
+    min-height: 400px;
     height: 60vh;
     background-image: url(../assets/images/irelandcliffs_sm.jpg);
     background-repeat: no-repeat;
