@@ -30,6 +30,10 @@ class QuizQuestions {
         .catch((e) =>{
             console.log(`** Failed to get question data & set first question: ${e} **`);        
         })
+
+        // Reset results counter (temporary)
+        numCorrectThisRound = 0;
+        document.getElementById("results").innerHTML = "";        
     }    
     
     nextQuestion() {
@@ -54,6 +58,11 @@ class QuizQuestions {
         document.getElementById(`answer${randomPosition.pop()}`).innerText = qanda['incorrect_answers'][0];
         document.getElementById(`answer${randomPosition.pop()}`).innerText = qanda['incorrect_answers'][1];
         document.getElementById(`answer${randomPosition.pop()}`).innerText = qanda['incorrect_answers'][2];
+
+        // Clear answer area css (temporary)
+        for (let i in document.getElementsByClassName("answer")) {            
+            document.getElementsByClassName("answer")[i].style.color = "white";
+        }
     }
 }
 
