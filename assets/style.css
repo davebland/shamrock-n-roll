@@ -1,6 +1,7 @@
 /* Main CSS */
 
 body {    
+    background-color: #f0fbfd;
 }
 
 #main-content {
@@ -17,6 +18,7 @@ body {
 #quiz-area {
     min-height: 600px;
     height: 60vh;
+    background-color: #647258;
 }
 
 #controls-area {
