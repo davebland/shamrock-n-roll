@@ -4,11 +4,13 @@ body {
     background-color: #f0fbfd;
 }
 
+
 #main-content {
+    background-color: #f0fbfd;
 }
 
 #main-content div {
-    border: 2px solid black;
+    border: 2px solid #657248;
 }
 
 #title-area {
@@ -18,9 +20,15 @@ body {
 #quiz-area {
     min-height: 600px;
     height: 60vh;
-    background-color: #647258;
-}
+    background-image: url(../assets/images/irelandcliffs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    
+}
+.questionbox {
+    
+}
 #controls-area {
     min-height: 100px;
     height: 10vh;
