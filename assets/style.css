@@ -34,3 +34,30 @@ footer p {
 .height50p {
     height : 50%
 }
+
+#scoreboard {
+    text-align: center;
+    width: 100%;
+}
+
+.scoreboard-row {
+    position: relative;
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.scoreboard-username {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  line-height: 40px;
+  float: left;
+}
+
+.scoreboard-score {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  line-height: 40px;
+}
