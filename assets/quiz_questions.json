@@ -49,6 +49,108 @@
             "question" : "In what location is it rumored that leprechauns bury their pot of gold?",
             "correct_answer" : "The end of a rainbow",
             "incorrect_answers" : ["A river","A mountain","In a cave"]
+        },
+        // 
+        {
+            "question" : "Where was St Patrick born?",
+            "correct_answer" : "Wales",
+            "incorrect_answers" : ["Dublin","Kerry","Cork"]
+        },
+        {
+            "question" : "When is Samhain celebrated?",
+            "correct_answer" : "November",
+            "incorrect_answers" : ["September","May","December"]
+        },
+        {
+            "question" : "What is the second most spoken language in Ireland",
+            "correct_answer" : "Polish",
+            "incorrect_answers" : ["English","Irish","Gaelic"]
+        },
+        {
+            "question" : "Where is Guinness consumed the most in the world?",
+            "correct_answer" : "Nigeria",
+            "incorrect_answers" : ["The United States","Argentina","Ireland"]
+        },
+        {
+            "question" : "What is the national symbol of Ireland?",
+            "correct_answer" : "Harp",
+            "incorrect_answers" : ["Shamrock","Dairy Cow","St Patrick and Snakes"]
+        },
+        {
+            "question" : "Which famous saint is buried in Ireland",
+            "correct_answer" : "St Patrick",
+            "incorrect_answers" : ["St Nicholas","St Sebastian","St Francis"]
+        },
+        {
+            "question" : "What is a protective tradition in Ireland?",
+            "correct_answer" : "Making a Brigid's cross to hang on the door",
+            "incorrect_answers" : ["Throwing a glass of whiskey in the fire","Leaving gold jewellry in a basket by the door","Burning paper snakes"]
+        },
+        {
+            "question" : "What superstition brings bad luck in Ireland?",
+            "correct_answer" : "Seeing a lone magpie",
+            "incorrect_answers" : ["Going to the funeral of a stranger","Having red hair","Saying leprechaun when drunk"]
+        },
+        {
+            "question" : "Where are fairies said to be found in Ireland?",
+            "correct_answer" : "In a lonely Hawthorne tree",
+            "incorrect_answers" : ["In rocky quarries","In a field of clovers","On farm land"]
+        },
+        {
+            "question" : "For good luck, what is a common Irish tradition?",
+            "correct_answer" : "Lighting a candle",
+            "incorrect_answers" : ["Dancing a jig","Singing to St Patrick","Drink a shot of whiskey"]
+        },
+        //
+          {
+            "question" : "Bandon, born Graham William Walker is better known professionally as?",
+            "correct_answer" : "Graham Norton",
+            "incorrect_answers" : ["Stephan Nolan","Brendan O'Connor"]
+        },
+        {
+            "question" : "Which Limerick-born broadcaster was associated with the Eurovision Song Contest for many years, ending their connection in 2008?",
+            "correct_answer" : "Sir Terry Wogan",
+            "incorrect_answers" : ["Laura Whitmore","Gerry Ryan"]
+        },
+        {
+            "question" : "What day was consider lucky to sow potatoes?",
+            "correct_answer" : "Good Friday",
+            "incorrect_answers" : ["Easter Sunday","Maundy Thursday"]
+        },
+        {
+            "question" : "What is the significance of a horse or donkey shoe nailed above the door in an Irish house?",
+            "correct_answer" : "To bring good luck",
+            "incorrect_answers" : ["Stables","To show the occupants lost a horse in battle"]
+        },
+        {
+            "question" : "On what day of the week is it considered unlucky to cut your fingernails?",
+            "correct_answer" : "Sunday",
+            "incorrect_answers" : ["Wednesday","Friday"]
+        },
+        {
+            "question" : "What is a traditional flute made from?",
+            "correct_answer" : "Tin",
+            "incorrect_answers" : ["Wood","Bone"]
+        },
+        {
+            "question" : "What is a bodhran?",
+            "correct_answer" : "A drum",
+            "incorrect_answers" : ["A pie","A traditional Irish drink"]
+        },
+        {
+            "question" : "In what year did Guinness formally adopt the harp as its symbol?",
+            "correct_answer" : "1962",
+            "incorrect_answers" : ["1970","1974"]
+        },
+        {
+            "question" : "Where was 'Waking Ned' filmed?",
+            "correct_answer" : "Isle of Man",
+            "incorrect_answers" : ["Isle of White","Cork"]
+        },
+        {
+            "question" : "Which part of Ireland is Coddle traditionally asscociated with?",
+            "correct_answer" : "Dublin",
+            "incorrect_answers" : ["Sligo","Donegal"]
         }
     ]
 }
