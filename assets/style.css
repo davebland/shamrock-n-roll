@@ -202,3 +202,8 @@ footer p {
     border-style: solid;
     width: 100%;
 }
+
+#scoreboard-area .shamrock-header-image {
+    width: 1.2em;
+    height: 1.2em;
+}
