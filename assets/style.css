@@ -167,22 +167,6 @@ footer p {
     font-size: 1.2em;
 }
 
-/* #scoreboard-area .scoreboard-user-column {
-  position: relative;
-  display: inline-block;
-  width: 68%;
-  line-height: 40px;
-  border-width: 0 2px 0 0;
-}
-
-#scoreboard-area .scoreboard-score-column {
-  position: relative;
-  display: inline-block;
-  width: 30%;
-  line-height: 40px;
-  border: 0;
-} */
-
 #scoreboard-area #leaderboard {
     width: 100%;
     margin-top: 20px;
@@ -204,14 +188,6 @@ footer p {
   width: 45%;
   line-height: 40px
 }
-
-/* #scoreboard-area .leaderboard-user-column {
-  position: relative;
-  display: inline-block;
-  width: 60%;
-  line-height: 40px;
-  border-width: 0 2px 0 0;
-} */
 
 #scoreboard-area .leaderboard-score-column {
   position: relative;
