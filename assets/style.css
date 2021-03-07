@@ -3,14 +3,28 @@
 body {    
     background-color: #f8f6ea!important;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../assets/images/irelandcliffs_sm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 #main-content {
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-image: url(../assets/images/irelandcliffs_sm.jpg);
+    background-repeat: no-repeat;
+   padding:40px;
+   
 }
 
+#main-content h1 {
+    font-size: 30px;
+    text-align: right ;
+}
 #main-content div {
-    border: 2px solid #657248;
+   
+ 
     
 }
 
@@ -20,7 +34,7 @@ body {
 }
 
 .logo {
-    text-indent: 5px;
+    text-indent: 3px;
     max-width: 960px;
     max-height: 148px;
 }
@@ -28,15 +42,18 @@ body {
 #quiz-area {
     min-height: 400px;
     height: 60vh;
-    background-image: url(../assets/images/irelandcliffs_sm.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
-      
+    
+}
+#message{
+    font-size: 40px;
+    font-weight: 200px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 4px #f8f6ea;
 }
 .questionbox{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #0d1821;
     text-align: center;
     z-index: 1000;
@@ -72,6 +89,7 @@ body {
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
+        
 }
 
 .answer:active {
@@ -81,8 +99,8 @@ body {
 }
 
 .correct_answer {
-    background-color: #02de65;
-    border: solid 1px  #02de65;  
+    background-color: #657248;
+    border: solid 1px  #657248;;  
     color: white!important;  
     -webkit-box-shadow: 0px 3px 0px rgba(2, 222, 101, 1), 0px 3px 6px rgba(0, 0, 0, .9);
     -moz-box-shadow: 0px 3px 0px rgba(2, 222, 101, 1), 0px 3px 6px rgba(0, 0, 0, .9);
@@ -94,7 +112,7 @@ body {
         transition: all .5s ease;
 }
 .correct_answer:active {
-    background-color: #02de65;
+    background-color: #657248;;
     box-shadow: 0 5px #b8bbbd;
     transform: translateY(8px); 
 }
