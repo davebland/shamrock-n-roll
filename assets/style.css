@@ -4,7 +4,6 @@ body {
     background-color: #f0fbfd;
 }
 
-
 #main-content {
     background-color: #f0fbfd;
 }
@@ -17,6 +16,14 @@ body {
     min-height: 100px;
     height: 15vh;
 }
+
+.logo {
+    background-color: f0fbfd;
+    text-indent: 5px;
+    max-width: 960px;
+    max-height: 148px;
+}
+
 #quiz-area {
     min-height: 400px;
     height: 60vh;
