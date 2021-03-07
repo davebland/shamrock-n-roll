@@ -1,7 +1,7 @@
 /* Main CSS */
 
 body {    
-    background-color: #f0fbfd;
+    background-color: #f7f7ed;
 }
 
 #main-content {
@@ -41,7 +41,7 @@ body {
     z-index: 1000;
     position: relative;
     margin-top: 40px;
-    text-shadow: 1px 1px 0.3px #f0fbfd;
+    text-shadow: 1px 1px rgb(247, 247, 237 0.5);
     
 
 }
