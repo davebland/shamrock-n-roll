@@ -18,9 +18,14 @@
         </div>        
     </nav>
     <section id="main-content" class="container">
-        <div id="title-area" class="row">
-            <!-- Logo & Title -->
-            Logo & Title
+        <div id="title-area" class="row align-items-center">
+            <!-- Logo & Title -->            
+            <div class="col">
+                <a href="#"><img src="assets/images/shamrocknroll-logo.png" alt="Shamrock'n'roll logo" class="logo"></a>                
+            </div>
+            <div class="col">
+                <h1>How's your Irish luck?</h1>                
+            </div>                        
         </div>
         <div id="quiz-area" class="row">
             <div class="col-md-9 questionbox">
@@ -61,6 +66,7 @@
                     </div> -->
 
                     <div class="scoreboard-row">
+                        <div id="results"><!-- Temporary results for this round --></div>
                         <div class="scoreboard-user-column">username here</div>
                         <div class="scoreboard-score-column">score here</div>
                     </div>
@@ -98,14 +104,17 @@
               </div>  
             </div>
         </div>
-        <div id="controls-area" class="row">
+        <div id="controls-area" class="row align-items-center text-center">
             <!-- Game Controls -->
-            Game Controls
-            <div class="">
-                <button onclick="quiz.newRound()">Start Game</button>
-                <button onclick="quiz.nextQuestion()">Next Question</button>
-                <button onclick="quiz.newRound()">Reset</button>
-            </div>            
+            <div class="col">
+                <button class="button" onclick="quiz.newRound()"><strong>Start</strong></button>
+            </div>
+            <div class="col">
+                <button class="button" onclick="quiz.nextQuestion()"><strong>Next</strong></button>
+            </div>
+            <div class="col">                
+                <button class="button" onclick="quiz.newRound()"><strong>Reset</strong></button>    
+            </div>                                          
         </div>
         <!-- Main Page Content -->
     </section>

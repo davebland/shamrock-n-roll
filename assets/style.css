@@ -4,7 +4,6 @@ body {
     background-color: #f0fbfd;
 }
 
-
 #main-content {
     background-color: #f0fbfd;
 }
@@ -17,8 +16,16 @@ body {
     min-height: 100px;
     height: 15vh;
 }
+
+.logo {
+    background-color: f0fbfd;
+    text-indent: 5px;
+    max-width: 960px;
+    max-height: 148px;
+}
+
 #quiz-area {
-    min-height: 600px;
+    min-height: 400px;
     height: 60vh;
     background-image: url(../assets/images/irelandcliffs_sm.jpg);
     background-repeat: no-repeat;
@@ -30,15 +37,76 @@ body {
     height: 10vh;
 }
 
+.answer {
+    cursor: pointer;
+    width: 60%;
+    margin-left: auto;   
+    margin-right: auto;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    background: #f0fbfd;
+    display: flex;
+    justify-content: center;
+    color: #0d1821;
+    font-weight: bold; 
+    -webkit-box-shadow: 0px 9px 0px rgb(215, 221, 223, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0px 9px 0px rgba(215, 221, 223, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+    box-shadow: 0px 9px 0px rgba(215, 221, 223, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+}
+
+.answer:active {
+    background-color: #f0fbfd;
+    box-shadow: 0 5px #b8bbbd;
+    transform: translateY(8px); 
+}
+
+.correct_answer {
+    background-color: #02de65;
+    border: solid 1px  #02de65;  
+    color: white!important;  
+    -webkit-box-shadow: 0px 3px 0px rgba(2, 222, 101, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    -moz-box-shadow: 0px 3px 0px rgba(2, 222, 101, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    box-shadow: 0px 3px 0px rgba(2, 222, 101, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+}
+.correct_answer:active {
+    background-color: #02de65;
+    box-shadow: 0 5px #b8bbbd;
+    transform: translateY(8px); 
+}
+
+.incorrect_answer {
+    background-color: #ec4b4e;
+    border: solid 1px  #e5383b;
+    color: white; 
+}
+
+.button {
+    border: none;
+    background-color: f0fbfd;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
 footer p {
     text-align: center;
     font-weight: bold;
 }
 
-.answer {
-    text-align: center;
-    color: white;
-}
 
 /* Helpers */
 

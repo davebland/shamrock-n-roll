@@ -18,8 +18,8 @@ class QuizQuestions {
         fetch("assets/quiz_questions.json").then(response=>response.json())        
         .then(json => {
             // Pick 10 random questions from the data
-            for (let i = 0; i < 5; i++) {                
-                this.questions.push(json['questions'][this.randomInt(1,10)]);
+            for (let i = 0; i < 10; i++) {                
+                this.questions.push(json['questions'][this.randomInt(1,30)]);
             }            
         })
         .then(()=>{
