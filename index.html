@@ -29,21 +29,23 @@
         </div>
         <div id="quiz-area" class="row">
             <div class="col-md-9 questionbox">
-                <div class="row height50p">
-                    <!-- Question Area -->                    
-                    <p id="question"></p>
-                    <h3 id="message">Let's get started...</h3>
+                <div class="row pt-5">
+                    <!-- Question Area -->
+                    <div id="message">
+                        <h3>Let's get started...</h3>
+                        <button class="button" onclick="quiz.newRound(); removeMessage();"><strong>Start</strong></button>
+                    </div>                                                          
                     <div id="question-form">
                         <span id="question">
                             <!-- Question added here by JS -->
                         </span>
                     </div>
                 </div>
-                <div class="row height50p">
+                <div class="row">
                     <!-- Answer Area -->                    
                     <table>
                         <tr>
-                            <td><p><span id="answer1" class="answer" onclick="showResults(this, 'results')"></span></p></td>
+                            <td><p></p><span id="answer1" class="answer" onclick="showResults(this, 'results')"></span></p></td>
                             <td><p><span id="answer2" class="answer" onclick="showResults(this, 'results')"></span></p></td>
                         </tr>
                         <tr>
@@ -99,10 +101,7 @@
             </div>
         </div>
         <div id="controls-area" class="row align-items-center text-center">
-            <!-- Game Controls -->
-            <div class="col">
-                <button class="button" onclick="quiz.newRound()" onmousemove="removeMessage()"><strong>Start</strong></button>
-            </div>
+            <!-- Game Controls -->            
             <div class="col">
                 <button class="button" onclick="quiz.nextQuestion()"><strong>Next</strong></button>
             </div>

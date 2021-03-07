@@ -5,17 +5,8 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#main-content {
-    
-}
-
-/* #main-content div {
-    border: 2px solid #657248;
-} */
-
 #title-area {
     min-height: 100px;
-    height: 15vh;
 }
 
 .logo {
@@ -24,9 +15,8 @@ body {
     max-height: 148px;
 }
 
-#quiz-area {
-    min-height: 400px;
-    height: 60vh;
+#quiz-area {    
+    min-height: 60vh;
     background-image: url(../assets/images/irelandcliffs_sm.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
@@ -35,7 +25,7 @@ body {
 .questionbox{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1.5rem;
     color: #0d1821;
     text-align: center;
     z-index: 1000;
@@ -47,7 +37,7 @@ body {
 #question-form{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
-    font-size: 3em;
+    font-size: 3rem;
     color: #0d1821;
     text-align: center;
     z-index: 1000;
@@ -57,7 +47,6 @@ body {
 }
 #controls-area {
     min-height: 100px;
-    height: 10vh;
 }
 
 .answer {
@@ -109,6 +98,7 @@ body {
 .correct_answer:hover {
     background-color: rgba(2, 222, 101, .9);
 }
+
 .correct_answer:active {
     background-color: #02de65;
     box-shadow: 0 5px #b8bbbd;
