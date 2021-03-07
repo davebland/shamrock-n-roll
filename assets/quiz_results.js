@@ -32,7 +32,7 @@ function updateHistory() {
 		document.getElementById("score-history").insertAdjacentHTML('beforeend', `
 		<div class="leaderboard-row">
 			<div class="leaderboard-round-column">Round ${round}</div>		
-			<div class="leaderboard-score-column">${scoreHistory[i]}</div>
+			<div class="leaderboard-score-column">${scoreHistory[i]} / 10</div>
 		</div>
 		`);
 	}

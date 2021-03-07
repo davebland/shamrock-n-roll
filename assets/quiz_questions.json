@@ -154,52 +154,52 @@
           {
             "question" : "What is the biggest lake in Ireland?",
             "correct_answer" : "Lough Neagh",
-            "incorrect_answers" : ["Lough Derg","Lough Corrib",""]
+            "incorrect_answers" : ["Lough Derg","Lough Corrib","Lock Ness"]
         },
         {
             "question" : "Which of these political parties is the oldest?",
             "correct_answer" : "Labour Party",
-            "incorrect_answers" : ["Fine Gael","Fiamma Fail",""]
+            "incorrect_answers" : ["Fine Gael","Fiamma Fail","Green Party"]
         },
         {
             "question" : "Which of these counties has the biggest population?",
             "correct_answer" : "Cork",
-            "incorrect_answers" : ["Galway","Limerick",""]
+            "incorrect_answers" : ["Galway","Limerick","Leitrim"]
         },
         {
             "question" : "Which province has the fewest counties?",
             "correct_answer" : "Connacht",
-            "incorrect_answers" : ["Munster","Ulster",""]
+            "incorrect_answers" : ["Munster","Ulster","Leinster"]
         },
         {
             "question" : "In what year did George Bernard Shaw die?",
             "correct_answer" : "1950",
-            "incorrect_answers" : ["1955","1945",""]
+            "incorrect_answers" : ["1955","1945","1961"]
         },
         {
             "question" : "Which county has won more All-Irelands? Kilkenny in hurling, or Kerry in football?",
             "correct_answer" : "Kerry",
-            "incorrect_answers" : ["Kilkenny","All of the above",""]
+            "incorrect_answers" : ["Kilkenny","All of the above","All equal"]
         },
         {
             "question" : "To which county can Barack Obama trace his Irish roots to?",
             "correct_answer" : "Offaly",
-            "incorrect_answers" : ["Tipperaty","Westmeath",""]
+            "incorrect_answers" : ["Tipperaty","Westmeath","Ulster"]
         },
         {
             "question" : "Which county is nicknamed The Treaty County?",
             "correct_answer" : "Limerick",
-            "incorrect_answers" : ["Carlow","Waterford",""]
+            "incorrect_answers" : ["Carlow","Waterford","Ulster"]
         },
         {
             "question" : "Which canal is situated at Croke Park's Canal End?",
             "correct_answer" : "Royal Canal",
-            "incorrect_answers" : ["Grand Canal","There is no canal, it's all a conspiracy",""]
+            "incorrect_answers" : ["Grand Canal","There is no canal, it's all a conspiracy","Big canal"]
         },
         {
             "question" : "What is the second smallest county in Ireland?",
             "correct_answer" : "Carlow",
-            "incorrect_answers" : ["Louth"," Laois",""]
+            "incorrect_answers" : ["Louth"," Laois","Ulster"]
         },
           {
             "question" : "What is said to have been St Patrick’s real name?",
