@@ -150,7 +150,7 @@
             "correct_answer" : "Dublin",
             "incorrect_answers" : ["Sligo","Donegal",""]
         },
-        //next round 1
+  
           {
             "question" : "What is the biggest lake in Ireland?",
             "correct_answer" : "Lough Neagh",
@@ -201,60 +201,57 @@
             "correct_answer" : "Carlow",
             "incorrect_answers" : ["Louth"," Laois",""]
         },
-        // next round
+        
 
           {
-            "question" : "Bandon, born Graham William Walker is better known professionally as?",
-            "correct_answer" : "Graham Norton",
-            "incorrect_answers" : ["Stephan Nolan","Brendan O'Connor",""]
+            "question" : "What is said to have been St Patrick’s real name?",
+            "correct_answer" : "Maewyn Succat",
+            "incorrect_answers" : ["Paddy O’Leary","Patrick Walsh","Sean Fitzpatrick"]
         },
         {
-            "question" : "Which Limerick-born broadcaster was associated with the Eurovision Song Contest for many years, ending their connection in 2008?",
-            "correct_answer" : "Sir Terry Wogan",
-            "incorrect_answers" : ["Laura Whitmore","Gerry Ryan",""]
+            "question" : "What symbol is often associated with Ireland’s patron saint?",
+            "correct_answer" : "Shamrock",
+            "incorrect_answers" : ["Bodhran","Castle","Claddagh ring"]
         },
         {
-            "question" : "What day was consider lucky to sow potatoes?",
-            "correct_answer" : "Good Friday",
-            "incorrect_answers" : ["Easter Sunday","Maundy Thursday",""]
+            "question" : "Where does the Home of Saint Patrick Festival take place?",
+            "correct_answer" : "Newry, Mourne and Down",
+            "incorrect_answers" : ["Belfast","Cork","Donega"]
         },
         {
-            "question" : "What is the significance of a horse or donkey shoe nailed above the door in an Irish house?",
-            "correct_answer" : "To bring good luck",
-            "incorrect_answers" : ["Stables","To show the occupants lost a horse in battle",""]
+            "question" : "Where in the world was St Patrick’s Day first celebrated?",
+            "correct_answer" : "Boston, Massachusetts",
+            "incorrect_answers" : ["Dublin, Ireland","Glasgow, Scotland","Liverpool, England"]
         },
         {
-            "question" : "On what day of the week is it considered unlucky to cut your fingernails?",
-            "correct_answer" : "Sunday",
-            "incorrect_answers" : ["Wednesday","Friday",""]
+            "question" : "We all know the colour green is synonymous with St Patrick’s Day, but what other colour has been associated with the saint?",
+            "correct_answer" : "Blue",
+            "incorrect_answers" : ["Pink","Yellow","Red"]
         },
         {
-            "question" : "What is a traditional flute made from?",
-            "correct_answer" : "Tin",
-            "incorrect_answers" : ["Wood","Bone",""]
+            "question" : "According to legend, what did St Patrick banish from Ireland?",
+            "correct_answer" : "Snakes",
+            "incorrect_answers" : ["The sport of hurling","Tin whistles","Whiskey"]
         },
         {
-            "question" : "What is a bodhran?",
-            "correct_answer" : "A drum",
-            "incorrect_answers" : ["A pie","A traditional Irish drink",""]
+            "question" : "Where are the remains of St Patrick said to be located?",
+            "correct_answer" : "Down Cathedral, Downpatrick",
+            "incorrect_answers" : ["Cavan Cathedral","Christ Church Cathedral, Dublin","St Anne’s Cathedral, Belfast"]
         },
         {
-            "question" : "In what year did Guinness formally adopt the harp as its symbol?",
-            "correct_answer" : "1962",
-            "incorrect_answers" : ["1970","1974",""]
+            "question" : "What is the name of the famous President of the United States with an Irish family background who forgot St Patrick’s Day",
+            "correct_answer" : "John F. Kennedy",
+            "incorrect_answers" : ["Harry S. Truman","James Buchanan","Donald Trump"]
         },
         {
-            "question" : "Where was 'Waking Ned' filmed?",
-            "correct_answer" : "Isle of Man",
-            "incorrect_answers" : ["Isle of White","Cork",""]
+            "question" : "For what purpose was St Patrick’s Day originally created?",
+            "correct_answer" : "A day of prayer for spiritual missions",
+            "incorrect_answers" : ["To outrank St Valentine’s Day for popularity","An excuse to drink heavily","To chase snakes"]
         },
         {
-            "question" : "Which part of Ireland is Coddle traditionally asscociated with?",
-            "correct_answer" : "Dublin",
-            "incorrect_answers" : ["Sligo","Donegal",""]
+            "question" : "Which American St Patrick’s Day tradition began as an accident?",
+            "correct_answer" : "Dyeing rivers green",
+            "incorrect_answers" : ["Hosting a parade","Finding a pot of gold","Drinking Guinness"]
         }
     ]
 }
-    ]
-}
-    
