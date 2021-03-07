@@ -149,6 +149,112 @@
             "question" : "Which part of Ireland is Coddle traditionally asscociated with?",
             "correct_answer" : "Dublin",
             "incorrect_answers" : ["Sligo","Donegal",""]
+        },
+        //next round 1
+          {
+            "question" : "What is the biggest lake in Ireland?",
+            "correct_answer" : "Lough Neagh",
+            "incorrect_answers" : ["Lough Derg","Lough Corrib",""]
+        },
+        {
+            "question" : "Which of these political parties is the oldest?",
+            "correct_answer" : "Labour Party",
+            "incorrect_answers" : ["Fine Gael","Fiamma Fail",""]
+        },
+        {
+            "question" : "Which of these counties has the biggest population?",
+            "correct_answer" : "Cork",
+            "incorrect_answers" : ["Galway","Limerick",""]
+        },
+        {
+            "question" : "Which province has the fewest counties?",
+            "correct_answer" : "Connacht",
+            "incorrect_answers" : ["Munster","Ulster",""]
+        },
+        {
+            "question" : "In what year did George Bernard Shaw die?",
+            "correct_answer" : "1950",
+            "incorrect_answers" : ["1955","1945",""]
+        },
+        {
+            "question" : "Which county has won more All-Irelands? Kilkenny in hurling, or Kerry in football?",
+            "correct_answer" : "Kerry",
+            "incorrect_answers" : ["Kilkenny","All of the above",""]
+        },
+        {
+            "question" : "To which county can Barack Obama trace his Irish roots to?",
+            "correct_answer" : "Offaly",
+            "incorrect_answers" : ["Tipperaty","Westmeath",""]
+        },
+        {
+            "question" : "Which county is nicknamed The Treaty County?",
+            "correct_answer" : "Limerick",
+            "incorrect_answers" : ["Carlow","Waterford",""]
+        },
+        {
+            "question" : "Which canal is situated at Croke Park's Canal End?",
+            "correct_answer" : "Royal Canal",
+            "incorrect_answers" : ["Grand Canal","There is no canal, it's all a conspiracy",""]
+        },
+        {
+            "question" : "What is the second smallest county in Ireland?",
+            "correct_answer" : "Carlow",
+            "incorrect_answers" : ["Louth"," Laois",""]
+        },
+        // next round
+
+          {
+            "question" : "Bandon, born Graham William Walker is better known professionally as?",
+            "correct_answer" : "Graham Norton",
+            "incorrect_answers" : ["Stephan Nolan","Brendan O'Connor",""]
+        },
+        {
+            "question" : "Which Limerick-born broadcaster was associated with the Eurovision Song Contest for many years, ending their connection in 2008?",
+            "correct_answer" : "Sir Terry Wogan",
+            "incorrect_answers" : ["Laura Whitmore","Gerry Ryan",""]
+        },
+        {
+            "question" : "What day was consider lucky to sow potatoes?",
+            "correct_answer" : "Good Friday",
+            "incorrect_answers" : ["Easter Sunday","Maundy Thursday",""]
+        },
+        {
+            "question" : "What is the significance of a horse or donkey shoe nailed above the door in an Irish house?",
+            "correct_answer" : "To bring good luck",
+            "incorrect_answers" : ["Stables","To show the occupants lost a horse in battle",""]
+        },
+        {
+            "question" : "On what day of the week is it considered unlucky to cut your fingernails?",
+            "correct_answer" : "Sunday",
+            "incorrect_answers" : ["Wednesday","Friday",""]
+        },
+        {
+            "question" : "What is a traditional flute made from?",
+            "correct_answer" : "Tin",
+            "incorrect_answers" : ["Wood","Bone",""]
+        },
+        {
+            "question" : "What is a bodhran?",
+            "correct_answer" : "A drum",
+            "incorrect_answers" : ["A pie","A traditional Irish drink",""]
+        },
+        {
+            "question" : "In what year did Guinness formally adopt the harp as its symbol?",
+            "correct_answer" : "1962",
+            "incorrect_answers" : ["1970","1974",""]
+        },
+        {
+            "question" : "Where was 'Waking Ned' filmed?",
+            "correct_answer" : "Isle of Man",
+            "incorrect_answers" : ["Isle of White","Cork",""]
+        },
+        {
+            "question" : "Which part of Ireland is Coddle traditionally asscociated with?",
+            "correct_answer" : "Dublin",
+            "incorrect_answers" : ["Sligo","Donegal",""]
         }
     ]
 }
+    ]
+}
+    
