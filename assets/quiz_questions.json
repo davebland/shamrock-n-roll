@@ -149,6 +149,107 @@
             "question" : "Which part of Ireland is Coddle traditionally asscociated with?",
             "correct_answer" : "Dublin",
             "incorrect_answers" : ["Sligo","Donegal","Cork"]
+        },
+  
+          {
+            "question" : "What is the biggest lake in Ireland?",
+            "correct_answer" : "Lough Neagh",
+            "incorrect_answers" : ["Lough Derg","Lough Corrib",""]
+        },
+        {
+            "question" : "Which of these political parties is the oldest?",
+            "correct_answer" : "Labour Party",
+            "incorrect_answers" : ["Fine Gael","Fiamma Fail",""]
+        },
+        {
+            "question" : "Which of these counties has the biggest population?",
+            "correct_answer" : "Cork",
+            "incorrect_answers" : ["Galway","Limerick",""]
+        },
+        {
+            "question" : "Which province has the fewest counties?",
+            "correct_answer" : "Connacht",
+            "incorrect_answers" : ["Munster","Ulster",""]
+        },
+        {
+            "question" : "In what year did George Bernard Shaw die?",
+            "correct_answer" : "1950",
+            "incorrect_answers" : ["1955","1945",""]
+        },
+        {
+            "question" : "Which county has won more All-Irelands? Kilkenny in hurling, or Kerry in football?",
+            "correct_answer" : "Kerry",
+            "incorrect_answers" : ["Kilkenny","All of the above",""]
+        },
+        {
+            "question" : "To which county can Barack Obama trace his Irish roots to?",
+            "correct_answer" : "Offaly",
+            "incorrect_answers" : ["Tipperaty","Westmeath",""]
+        },
+        {
+            "question" : "Which county is nicknamed The Treaty County?",
+            "correct_answer" : "Limerick",
+            "incorrect_answers" : ["Carlow","Waterford",""]
+        },
+        {
+            "question" : "Which canal is situated at Croke Park's Canal End?",
+            "correct_answer" : "Royal Canal",
+            "incorrect_answers" : ["Grand Canal","There is no canal, it's all a conspiracy",""]
+        },
+        {
+            "question" : "What is the second smallest county in Ireland?",
+            "correct_answer" : "Carlow",
+            "incorrect_answers" : ["Louth"," Laois",""]
+        },
+          {
+            "question" : "What is said to have been St Patrick’s real name?",
+            "correct_answer" : "Maewyn Succat",
+            "incorrect_answers" : ["Paddy O’Leary","Patrick Walsh","Sean Fitzpatrick"]
+        },
+        {
+            "question" : "What symbol is often associated with Ireland’s patron saint?",
+            "correct_answer" : "Shamrock",
+            "incorrect_answers" : ["Bodhran","Castle","Claddagh ring"]
+        },
+        {
+            "question" : "Where does the Home of Saint Patrick Festival take place?",
+            "correct_answer" : "Newry, Mourne and Down",
+            "incorrect_answers" : ["Belfast","Cork","Donega"]
+        },
+        {
+            "question" : "Where in the world was St Patrick’s Day first celebrated?",
+            "correct_answer" : "Boston, Massachusetts",
+            "incorrect_answers" : ["Dublin, Ireland","Glasgow, Scotland","Liverpool, England"]
+        },
+        {
+            "question" : "We all know the colour green is synonymous with St Patrick’s Day, but what other colour has been associated with the saint?",
+            "correct_answer" : "Blue",
+            "incorrect_answers" : ["Pink","Yellow","Red"]
+        },
+        {
+            "question" : "According to legend, what did St Patrick banish from Ireland?",
+            "correct_answer" : "Snakes",
+            "incorrect_answers" : ["The sport of hurling","Tin whistles","Whiskey"]
+        },
+        {
+            "question" : "Where are the remains of St Patrick said to be located?",
+            "correct_answer" : "Down Cathedral, Downpatrick",
+            "incorrect_answers" : ["Cavan Cathedral","Christ Church Cathedral, Dublin","St Anne’s Cathedral, Belfast"]
+        },
+        {
+            "question" : "What is the name of the famous President of the United States with an Irish family background who forgot St Patrick’s Day",
+            "correct_answer" : "John F. Kennedy",
+            "incorrect_answers" : ["Harry S. Truman","James Buchanan","Donald Trump"]
+        },
+        {
+            "question" : "For what purpose was St Patrick’s Day originally created?",
+            "correct_answer" : "A day of prayer for spiritual missions",
+            "incorrect_answers" : ["To outrank St Valentine’s Day for popularity","An excuse to drink heavily","To chase snakes"]
+        },
+        {
+            "question" : "Which American St Patrick’s Day tradition began as an accident?",
+            "correct_answer" : "Dyeing rivers green",
+            "incorrect_answers" : ["Hosting a parade","Finding a pot of gold","Drinking Guinness"]
         }
     ]
 }

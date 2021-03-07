@@ -1,54 +1,83 @@
 /* Main CSS */
 
 body {    
-    background-color: #f0fbfd;
+    background-color: #f8f6ea!important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../assets/images/irelandcliffs_sm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    z-index: 1;
 }
 
 #main-content {
-    background-color: #f0fbfd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-image: url(../assets/images/irelandcliffs_sm.jpg);
+    background-repeat: no-repeat;
+   padding:40px;
+   
 }
 
-/* #main-content div {
-    border: 2px solid #657248;
-} */
+#main-content h1 {
+    font-size: 30px;
+    text-align: right ;
+}
 
 #title-area {
     min-height: 100px;
-    height: 15vh;
 }
 
 .logo {
-    background-color: f0fbfd;
-    text-indent: 5px;
+    text-indent: 3px;
     max-width: 960px;
     max-height: 148px;
 }
 
-#quiz-area {
-    min-height: 400px;
-    height: 60vh;
+#message{
+    font-size: 40px;
+    font-weight: 200px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 4px #f8f6ea;
+}
+
+#quiz-area {    
+    min-height: 60vh;
     background-image: url(../assets/images/irelandcliffs_sm.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;  
+    background-size: cover; 
+}
+  
+.questionbox{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #0d1821;
+    text-align: center;
+    z-index: 1000;
+    position: relative;
+    margin-top: 40px;
+    text-shadow: 1px 1px rgb(247, 247, 237 0.5);
 }
 
 #question-form{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
-    font-size: 3em;
+    font-size: 3rem;
     color: #0d1821;
     text-align: center;
     z-index: 1000;
     position: relative;
     padding-top: 50px;
     text-shadow: 1px 1px 0.3px #f0fbfd;
-    
-
 }
+
+#answer-area {
+    display: none;
+}
+
 #controls-area {
     min-height: 100px;
-    height: 10vh;
 }
 
 .answer {
@@ -61,7 +90,7 @@ body {
     background: #f0fbfd;
     display: flex;
     justify-content: center;
-    color: #0d1821;
+    color: #0d1821!important;
     font-weight: bold; 
     -webkit-box-shadow: 0px 9px 0px rgb(215, 221, 223, 1), 0px 9px 25px rgba(0, 0, 0, .7);
     -moz-box-shadow: 0px 9px 0px rgba(215, 221, 223, 1), 0px 9px 25px rgba(0, 0, 0, .7);
@@ -71,6 +100,7 @@ body {
         -ms-transition: all .5s ease;
         -o-transition: all .5s ease;
         transition: all .5s ease;
+        
 }
 
 .answer:active {
@@ -79,9 +109,13 @@ body {
     transform: translateY(8px); 
 }
 
+.answer:hover {
+    background-color: rgba(215, 221, 223, .9);
+}
+
 .correct_answer {
-    background-color: #02de65;
-    border: solid 1px  #02de65;  
+    background-color: #657248;
+    border: solid 1px  #657248;;  
     color: white!important;  
     -webkit-box-shadow: 0px 3px 0px rgba(2, 222, 101, 1), 0px 3px 6px rgba(0, 0, 0, .9);
     -moz-box-shadow: 0px 3px 0px rgba(2, 222, 101, 1), 0px 3px 6px rgba(0, 0, 0, .9);
@@ -92,21 +126,44 @@ body {
         -o-transition: all .5s ease;
         transition: all .5s ease;
 }
+
+.correct_answer:hover {
+    background-color: rgba(2, 222, 101, .9);
+}
+
 .correct_answer:active {
-    background-color: #02de65;
+    background-color: #657248;;
     box-shadow: 0 5px #b8bbbd;
     transform: translateY(8px); 
 }
 
 .incorrect_answer {
-    background-color: #ec4b4e;
+    background-color: rgb(236, 75, 78);
     border: solid 1px  #e5383b;
-    color: white; 
+    color: white!important; 
+    -webkit-box-shadow: 0px 3px 0px rgba(236, 75, 78, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    -moz-box-shadow: 0px 3px 0px rgba(236, 75, 78, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    box-shadow: 0px 3px 0px rgba(236, 75, 78, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
 }
+
+.incorrect_answer:hover {
+    background-color: rgba(236, 75, 78, .9);
+}
+.incorrect_answer:active {
+    background-color: #ec4b4e;
+    box-shadow: 0 5px #ca3e41;
+    transform: translateY(8px); 
+}
+
 
 .button {
     border: none;
-    background-color: f0fbfd;
+    background-color: #f0fbfd;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
