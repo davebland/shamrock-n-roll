@@ -45,6 +45,11 @@ body {
     padding-top: 50px;
     text-shadow: 1px 1px 0.3px #f0fbfd;
 }
+
+#answer-area {
+    display: none;
+}
+
 #controls-area {
     min-height: 100px;
 }

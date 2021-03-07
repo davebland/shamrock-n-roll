@@ -2,6 +2,7 @@
 
 function removeMessage() {
   document.getElementById("message").style.display = "none";
+  document.getElementById("answer-area").style.display = "unset";
 }
 
 /* Picks up quiz data from JSON
@@ -30,22 +31,25 @@ class QuizQuestions {
         })
         .then(()=>{
             // Add the first question to the ui
-            alert("New round");
+            if (scoreHistory.length > 0) {
+                alert("New round!");
+            }          
             this.nextQuestion();
         })
         .catch((e) =>{
             console.log(`** Failed to get question data & set first question: ${e} **`);        
-        })
+        });
 
-        // Reset results counter (temporary)
+        // Reset results counter & add score to history (if not first round)
+        (numCorrectThisRound != -1) ? scoreHistory.push(numCorrectThisRound) : null;
         numCorrectThisRound = 0;
-        document.getElementById("results").innerHTML = "";        
+        document.getElementById("results").innerHTML = "";
+        updateHistory();
     }    
     
     nextQuestion() {
         // Check there are questions left in this round & restart if required
-        if (this.questions.length == 0) {
-            alert("End of round");            
+        if (this.questions.length == 0) {                       
             return this.newRound();
         }
 
@@ -66,6 +70,14 @@ class QuizQuestions {
         document.getElementById(`answer${randomPosition.pop()}`).innerText = qanda['incorrect_answers'][0];
         document.getElementById(`answer${randomPosition.pop()}`).innerText = qanda['incorrect_answers'][1];
         document.getElementById(`answer${randomPosition.pop()}`).innerText = qanda['incorrect_answers'][2];
+    }
+
+    resetGame() {
+        // Clear history and start game again
+        scoreHistory = [];
+        updateHistory();
+        numCorrectThisRound = -1;
+        this.newRound();
     }
 }
 
