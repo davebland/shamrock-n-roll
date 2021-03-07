@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-    background-color: f0fbfd;
+    background-color: #f0fbfd;
     text-indent: 5px;
     max-width: 960px;
     max-height: 148px;
@@ -43,8 +43,6 @@ body {
     position: relative;
     padding-top: 50px;
     text-shadow: 1px 1px 0.3px #f0fbfd;
-    
-
 }
 #controls-area {
     min-height: 100px;
@@ -61,7 +59,7 @@ body {
     background: #f0fbfd;
     display: flex;
     justify-content: center;
-    color: #0d1821;
+    color: #0d1821!important;
     font-weight: bold; 
     -webkit-box-shadow: 0px 9px 0px rgb(215, 221, 223, 1), 0px 9px 25px rgba(0, 0, 0, .7);
     -moz-box-shadow: 0px 9px 0px rgba(215, 221, 223, 1), 0px 9px 25px rgba(0, 0, 0, .7);
@@ -79,6 +77,10 @@ body {
     transform: translateY(8px); 
 }
 
+.answer:hover {
+    background-color: rgba(215, 221, 223, .9);
+}
+
 .correct_answer {
     background-color: #02de65;
     border: solid 1px  #02de65;  
@@ -92,6 +94,10 @@ body {
         -o-transition: all .5s ease;
         transition: all .5s ease;
 }
+
+.correct_answer:hover {
+    background-color: rgba(2, 222, 101, .9);
+}
 .correct_answer:active {
     background-color: #02de65;
     box-shadow: 0 5px #b8bbbd;
@@ -99,14 +105,32 @@ body {
 }
 
 .incorrect_answer {
-    background-color: #ec4b4e;
+    background-color: rgb(236, 75, 78);
     border: solid 1px  #e5383b;
-    color: white; 
+    color: white!important; 
+    -webkit-box-shadow: 0px 3px 0px rgba(236, 75, 78, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    -moz-box-shadow: 0px 3px 0px rgba(236, 75, 78, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    box-shadow: 0px 3px 0px rgba(236, 75, 78, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+    -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
 }
+
+.incorrect_answer:hover {
+    background-color: rgba(236, 75, 78, .9);
+}
+.incorrect_answer:active {
+    background-color: #ec4b4e;
+    box-shadow: 0 5px #ca3e41;
+    transform: translateY(8px); 
+}
+
 
 .button {
     border: none;
-    background-color: f0fbfd;
+    background-color: #f0fbfd;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
