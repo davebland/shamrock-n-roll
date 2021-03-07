@@ -1,16 +1,17 @@
 /* Main CSS */
 
 body {    
-    background-color: #f0fbfd;
+    background-color: #f8f6ea!important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #main-content {
-    background-color: #f0fbfd;
+    
 }
 
-/* #main-content div {
+#main-content div {
     border: 2px solid #657248;
-} */
+]
 
 #title-area {
     min-height: 100px;
@@ -18,7 +19,6 @@ body {
 }
 
 .logo {
-    background-color: #f0fbfd;
     text-indent: 5px;
     max-width: 960px;
     max-height: 148px;
@@ -29,8 +29,19 @@ body {
     height: 60vh;
     background-image: url(../assets/images/irelandcliffs_sm.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;  
+    background-size: cover; 
+      
+}
+.questionbox{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    color: #0d1821;
+    text-align: center;
+    z-index: 1000;
+    position: relative;
+    margin-top: 40px;
+    text-shadow: 1px 1px rgb(247, 247, 237 0.5);
 }
 
 #question-form{

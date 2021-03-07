@@ -1,3 +1,10 @@
+/* Temporary message before the quiz starts*/
+
+function removeMessage() {
+  document.getElementById("message").innerHTML = " ";
+}
+
+
 /* Picks up quiz data from JSON
 Generates random quiz rounds */
 
