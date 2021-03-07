@@ -1,10 +1,13 @@
+/* Temporary message before the quiz starts*/
+
+function removeMessage() {
+  document.getElementById("message").innerHTML = " ";
+}
+
+
 /* Picks up quiz data from JSON
 Generates random quiz rounds */
-function removeMessage() {
-    var removeMessage = document.getElementByClasName("rmvmessage");
-    removeMessage.rmvmessage = "show";
-    setTimeout(function(){ removeMessage.rmvmessage = removeMessage.rmvmessage.replace("show", ""); }, 3000);
-}
+
 class QuizQuestions {
 
     constructor() {

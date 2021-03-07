@@ -33,7 +33,7 @@
                     <!-- Question Area -->
                     
                     <p id="question"></p>
-                    <span id="quiz-questions rmvmessage" onclick="removeMessage();"><h3>Let's get started...</h3></span>
+                    <h3 id="message">Let's get started...</h3>
                 </div>
                 <div class="row height50p">
                     <!-- Answer Area -->
@@ -108,7 +108,7 @@
         <div id="controls-area" class="row align-items-center text-center">
             <!-- Game Controls -->
             <div class="col">
-                <button class="button" onclick="quiz.newRound()"><strong>Start</strong></button>
+                <button class="button" onclick="quiz.newRound()" onmousemove="removeMessage()"><strong>Start</strong></button>
             </div>
             <div class="col">
                 <button class="button" onclick="quiz.nextQuestion()"><strong>Next</strong></button>
