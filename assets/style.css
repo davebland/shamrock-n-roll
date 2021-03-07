@@ -38,6 +38,8 @@ body {
     text-align: center;
     z-index: 1000;
     position: relative;
+    padding-top: 50px;
+    text-shadow: 1px 1px 0.3px #f0fbfd;
     
 
 }
