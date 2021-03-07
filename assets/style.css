@@ -13,10 +13,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     font-size: 18px;
-    background-image: url(../assets/images/irelandcliffs_sm.jpg);
-    background-repeat: no-repeat;
    padding:40px;
-   
 }
 
 #main-content h1 {
@@ -42,10 +39,7 @@ body {
 }
 
 #quiz-area {    
-    min-height: 60vh;
-    background-image: url(../assets/images/irelandcliffs_sm.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
+    min-height: 60vh;    
 }
   
 .questionbox{
