@@ -26,7 +26,7 @@ class QuizQuestions {
         .then(json => {
             // Pick 10 random questions from the data
             for (let i = 0; i < 10; i++) {                
-                this.questions.push(json['questions'][this.randomInt(1,30)]);
+                this.questions.push(json['questions'][this.randomInt(1,50)]);
             }            
         })
         .then(()=>{
